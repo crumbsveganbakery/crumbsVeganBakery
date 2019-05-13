@@ -1,0 +1,73 @@
+html,
+body {
+  background: #71c1c2;
+}
+
+.mainLogo {
+  padding: 0em 0em 5em 0em;
+
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -moz-animation: fadein 3s; /* Firefox */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera */
+  animation: fadein 3s;
+}
+
+.rainbow {
+  background-image: url("/images/cupcakes3.jpg");
+  background-size: contain;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      90deg,
+      #ce1b1bc4 0%,
+      #b34916cf 15%,
+      #19b33c8a 35%,
+      #1761ad85 59%,
+      #0f55a7f2 87%,
+      #602ab7ed 100%
+    );
+    opacity: 1;
+  }
+}
+
+.tile {
+  align-items: stretch;
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-height: min-content;
+  border-radius: 0px;
+}
+
+.notification.is-primary {
+  background-color: #3e45aacc;
+  color: #fff;
+}
+
+.notification.is-warning {
+  background-color: #ffdd57a1;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.notification.is-danger {
+  background-color: #ff38609e;
+  color: #fff;
+}
+
+.notification.is-info {
+  background-color: #209ceeb3;
+  color: #fff;
+}
+
+.notification.is-success {
+  background-color: #23d1609e;
+  color: #fff;
+}

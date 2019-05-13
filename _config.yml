@@ -1,0 +1,30 @@
+title: Crumbs Vegan Bakery | Vegan Bakery Northern Ireland
+email: david@invisiblebuilding.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Crumbs Vegan Bakery are a 100% vegan home bakery based in Northern Ireland.
+  Gluten free friendly. Order Online for delivery or for purchase at local markets.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: crumbsvegan
+github_username: tbc
+ig_username: crumbsveganbakery
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+sass:
+  sass_dir: css

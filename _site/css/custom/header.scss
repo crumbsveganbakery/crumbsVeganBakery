@@ -1,0 +1,102 @@
+//  nav styles
+// over-riding bulma styles
+
+.navbar {
+  min-height: auto;
+  background: #3c5aa985;
+}
+
+.topLeftLogo {
+  padding-right: 4em;
+}
+
+​ ​ .navbar-item,
+.navbar-link {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 24px;
+  color: #ffdef5;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-item {
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 28px;
+  color: #ffdef5;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-start a:after {
+  padding-left: 1em;
+  content: " / ";
+  color: #c06192;
+}
+
+.navbar-Brand .button {
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -moz-animation: fadein 3s; /* Firefox */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera */
+  animation: fadein 3s;
+}
+
+.navbar-item img {
+  max-height: 100px;
+}
+
+.navbar-dropdown {
+  background: #71c1c2;
+
+  background-image: linear-gradient(
+    90deg,
+    #ce1b1b9e 0%,
+    #b3491675 15%,
+    #19b33c8a 35%,
+    #1761ad85 59%,
+    #0f55a773 87%,
+    #602ab7b0 100%
+  );
+}
+
+// footer nav
+
+.navbar.is-fixed-bottom {
+  bottom: 0;
+  height: 100px;
+}
+
+// nav menu mobile swaps
+
+.navbar-burger {
+  color: #c06192;
+}
+
+.navbar-burger span:nth-child(1) {
+  top: calc(90% - 6px);
+}
+.navbar-burger span:nth-child(2) {
+  top: calc(103% - 1px);
+}
+
+.navbar-burger span:nth-child(3) {
+  top: calc(120% + 4px);
+  width: 50px;
+}
+
+.navbar-burger span {
+  background-color: #c06192;
+  display: block;
+  height: 4px;
+  left: calc(-30% - 8px);
+  position: absolute;
+  transform-origin: center;
+  transition-duration: 86ms;
+  transition-property: background-color, opacity, transform;
+  transition-timing-function: ease-out;
+  width: 50px;
+}
