@@ -3,18 +3,11 @@ body {
   background: #71c1c2;
 }
 
-.mainLogo {
-  padding: 0em 0em 5em 0em;
 
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -moz-animation: fadein 3s; /* Firefox */
-  -ms-animation: fadein 3s; /* Internet Explorer */
-  -o-animation: fadein 3s; /* Opera */
-  animation: fadein 3s;
-}
+ // background-image: url("/images/cupcakes3.jpg");
 
 .rainbow {
-  background-image: url("/images/cupcakes3.jpg");
+
   background-size: contain;
 
   &:before {
@@ -24,15 +17,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(
-      90deg,
-      #ce1b1bc4 0%,
-      #b34916cf 15%,
-      #19b33c8a 35%,
-      #1761ad85 59%,
-      #0f55a7f2 87%,
-      #602ab7ed 100%
-    );
+    background-image: linear-gradient(111deg, #d70959c4 0%, #da8962cf 20%, #31a7798a 45%, #7ccbe085 60%, #c53780 90%, #4e1ca4ed 95%);
     opacity: 1;
   }
 }
@@ -47,27 +32,44 @@ body {
   border-radius: 0px;
 }
 
+
+
 .notification.is-primary {
-  background-color: #3e45aacc;
-  color: #fff;
+  background-color: #d71b7b;
+  color: #66064a;
+  text-transform: uppercase;
+  font-family: futura-pt, san-serf;
+  font-weight: 500;
 }
 
 .notification.is-warning {
   background-color: #ffdd57a1;
-  color: rgba(0, 0, 0, 0.7);
+  color: #66064a;
+  text-transform: uppercase;
+  font-family: futura-pt, san-serf;
+  font-weight: 500;
 }
 
 .notification.is-danger {
   background-color: #ff38609e;
-  color: #fff;
+  color: #66064a;
+  text-transform: uppercase;
+  font-family: futura-pt, san-serf;
+  font-weight: 500;
 }
 
 .notification.is-info {
-  background-color: #209ceeb3;
-  color: #fff;
+  background-color: #5a254a;
+  color: #d8cfd5;
+  text-transform: uppercase;
+  font-family: futura-pt, san-serf;
+  font-weight: 500;
 }
 
 .notification.is-success {
-  background-color: #23d1609e;
-  color: #fff;
+  background-color: #74a88e;
+  color: #862689;
+  text-transform: uppercase;
+  font-family: futura-pt, san-serf;
+  font-weight: 500;
 }

@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width">
-{% include meta.html %}
-<title>{{ page.title }}</title>
 
-<!-- Custom CSS -->
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="https://use.typekit.net/yim0qqq.css" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    {% include meta.html %}
+    <title>{{ page.title }}</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yim0qqq.css" />
 
 </head>
-<body>
- {% include header/header.html %}
-<section class="rainbow">
-    <div class=""
-<div class="container max-height">
-{{ content }}
 
-</div>
-</div>
-</section>
- {% include footer/footer.html %}
+<body>
+    {% include header/header.html %}
+    <section class="rainbow">
+        <div class="" <div class="container max-height">
+            {{ content }}
+            <div class="container">
+                <div class="parallax">
+                    <img src="https://returnpath.com/assets/images/backgrounds/background-confetti-xl-arcade.svg;">
+                    <img src="https://returnpath.com/assets/images/backgrounds/background-confetti-lg-arcade.svg;">
+                    <img src="https://returnpath.com/assets/images/backgrounds/background-confetti-md-arcade.svg;">
+                    <img src="https://returnpath.com/assets/images/backgrounds/background-confetti-sm-arcade.svg;">
+                    <img src="https://returnpath.com/assets/images/backgrounds/background-confetti-xs-arcade.svg">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    {% include footer/footer.html %}
 </body>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,5 +40,6 @@
 <script src="/js/nav.js"></script>
 
 
-    </body>
+</body>
+
 </html>
