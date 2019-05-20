@@ -1,14 +1,38 @@
 //  nav styles
 // over-riding bulma styles
 
+
+.mainLogo {
+  padding: 5.5em 0em 5em 0em;
+
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -moz-animation: fadein 3s; /* Firefox */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera */
+  animation: fadein 3s;
+}
+
+
+.mainLogo img {
+max-width: 70%;
+margin: 0 auto;
+}
+.vgangbLogo {
+  font-family: futura-pt, sans-serif;
+  font-size: 70px;
+  color: #66064a;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 .navbar {
   min-height: auto;
   background: #3c5aa985;
 }
 
-.topLeftLogo {
-  padding-right: 4em;
-}
+// .topLeftLogo {
+//   padding-right: 4em;
+// }
 
 ​ ​ .navbar-item,
 .navbar-link {
@@ -24,16 +48,23 @@
   font-family: futura-pt, sans-serif;
   font-weight: 800;
   font-style: italic;
+<<<<<<< HEAD
+=======
+  font-size: 24px;
+>>>>>>> 69c9f8511f6df7a2623eb487ac5956a91e2d5a5b
   color: #ffdef5;
   text-transform: uppercase;
   text-decoration: none;
 }
+.navbar-start a {
+  font-size: 1em;
+}
 
-.navbar-start a:after {
+ .navbar-start a:after {
   padding-left: 1em;
   content: " / ";
   color: #c06192;
-}
+ }
 
 .navbar-Brand .button {
   -webkit-animation: fadein 3s; /* Safari and Chrome */
@@ -43,13 +74,14 @@
   animation: fadein 3s;
 }
 
-.navbar-item img {
-  max-height: 100px;
-}
 
 .navbar-dropdown {
   background: #71c1c2;
+  background-image: linear-gradient(111deg, #d70959c4 0%, #da8962cf 20%, #31a7798a 45%, #7ccbe085 60%, #c53780 90%, #4e1ca4ed 95%);
 
+}
+
+<<<<<<< HEAD
   background-image: linear-gradient(
     -69deg,
     #432fce82 0%,
@@ -58,6 +90,11 @@
     #2877c86e 59%,
     #df34ba73 87%
   );
+=======
+.navbar-dropdown a.navbar-item {
+  font-size: 1em;
+  color: #66064a;
+>>>>>>> 69c9f8511f6df7a2623eb487ac5956a91e2d5a5b
 }
 
 // footer nav
