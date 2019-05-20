@@ -6717,7 +6717,9 @@ label.panel-block {
 
 html,
 body {
-  background: #71c1c2; }
+  background: #71c1c2;
+  font-family: futura-pt, sans-serif;
+  text-align: center; }
 
 .mainLogo {
   padding: 0em 0em 5em 0em;
@@ -6741,8 +6743,11 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(90deg, #ce1b1bc4 0%, #b34916cf 15%, #19b33c8a 35%, #1761ad85 59%, #0f55a7f2 87%, #602ab7ed 100%);
+    background-image: linear-gradient(69deg, #432fce82 0%, #9f6c2061 15%, #2ace918c 35%, #2877c86e 59%, #df34ba73 87%);
     opacity: 1; }
+
+.aboveTheFooter {
+  padding-bottom: 150px; }
 
 .tile {
   align-items: stretch;
@@ -6808,7 +6813,6 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 24px;
   color: #ffdef5;
   text-transform: uppercase;
   text-decoration: none; }
@@ -6817,7 +6821,6 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 800;
   font-style: italic;
-  font-size: 28px;
   color: #ffdef5;
   text-transform: uppercase;
   text-decoration: none; }
@@ -6843,7 +6846,7 @@ body {
 
 .navbar-dropdown {
   background: #71c1c2;
-  background-image: linear-gradient(90deg, #ce1b1b9e 0%, #b3491675 15%, #19b33c8a 35%, #1761ad85 59%, #0f55a773 87%, #602ab7b0 100%); }
+  background-image: linear-gradient(-69deg, #432fce82 0%, #9f6c2061 15%, #2ace918c 35%, #2877c86e 59%, #df34ba73 87%); }
 
 .navbar.is-fixed-bottom {
   bottom: 0;
